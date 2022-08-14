@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif; 
+
+}
+
+header{
+    background-color: #450000;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+/* MENU */
+
+.menu {
+    text-align: right;
+    
+}
+
+
+.menu li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+
+
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 200ms ease;
+    
+}
+
+
+.menu li a:hover {
+    color: black;
+    background-color: #ebc800;
+}
+
+
+.menu__item.active a {
+    text-decoration: underline;
+}
+
+section{
+text-align: center;
+}
+
+
+
+/* BIENVENIDA PAGINA PRINCIPAL */
+
+.txt__bienvenida {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-inline: 150px;
+
+}
+
+.txt__bienvenida h4 {
+    color: black;
+    padding-inline: 15px;
+    
+}
+
+.txt__bienvenida p,i {
+    text-align: center;
+}
+
+
+
+/* SLIDER */
+
+.slider {
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+
+    animation: cambio 20s infinite alternate;
+    animation-timing-function: ease-in;
+}
+
+.slider li {
+    width: 100%;
+    list-style: none;
+}
+
+.slider img {
+    width: 100%;
+}
+
+
+@keyframes cambio {
+    0% {margin-left: 0%;}
+    20% {margin-left: 0%;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
+
+
+
+
+/* GALERIA */
+
+.car1 {
+    margin-top: 20px;
+    padding: 10px;
+    display: inline-block;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    transition: transform .5s;
+    
+}
+
+.car1__motouno {
+    display: inline;
+    width: 300px;
+}
+
+
+.car1__title {
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    background-color: #440000;
+}
+
+.car1__description {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    background-color: #440000;
+}
+
+
+.car1:hover {
+    transform: scale(1.1) translateX(-10px);
+}
+
+
+
+/* NOSOTROS */
+
+.cards {
+    padding: 50px;
+    display: flex;
+    gap: 40px
+}
+
+.card {
+    background-color: #440000;
+    border-radius: 20px;
+    overflow: hidden;
+    flex: 1;
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+
+
+.card__imagen {
+    width: 190px;
+    margin-bottom: 20;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+
+.card__info {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding-left: 138px;
+}
+
+
+
+/* ENVIOS */
+
+
+.sucursalesbienv {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-inline: 200px;
+}
+
+.contenedor {
+    padding-left: 1rem;
+    text-align: center;
+    display: grid;
+    width: 1200px;
+    height: 300px;
+    grid-template-columns: repeat(6, 26.6%);
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+
+
+
+
+
+.caja {
+    border: 2px solid #440000;
+    background-color: #45000044;
+
+    
+}
+
+
+/* CONTACTO */
+
+.container-form {
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    margin-top: 90px;
+}
+
+.container-form h3 {
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+
+
+.container-form p {
+    margin-bottom: 17px;
+    line-height: 1,6;
+    margin-bottom: 30px;
+}
+
+.container-form .campo, textarea {
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 15px;
+    border: 1px solid #440000;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px
+}
+
+.container-form textarea {
+    max-width: 530px;
+    min-width: 530px;
+    min-height: 140px;
+    max-height: 150px;
+}
+
+.container-form .btn-enviar {
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background-color: #440000;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.container-form .btn-enviar:hover {
+    background-color: rgb(255, 0, 0);
+}
+
+
+
+
+/* REDES SOCIALES ICONOS */
+
+.redes  { 
+    width: 45;
+    text-align: right;
+    margin-right: 20px;
+    padding-top: 20px;
+}
+
+
+
+footer{
+    color: white;
+    background-color: #440000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 10px;
+    padding-inline: 10px;
+}
+
+
+
+/*** ANIMACIONES ***/ 
+
+
+.slide-in-elliptic-top-fwd{-webkit-animation:slide-in-elliptic-top-fwd .7s cubic-bezier(.25,.46,.45,.94) both;animation:slide-in-elliptic-top-fwd .7s cubic-bezier(.25,.46,.45,.94) both}
+
+@-webkit-keyframes slide-in-elliptic-top-fwd{0%{-webkit-transform:translateY(-600px) rotateX(-30deg) scale(0);transform:translateY(-600px) rotateX(-30deg) scale(0);-webkit-transform-origin:50% 100%;transform-origin:50% 100%;opacity:0}100%{-webkit-transform:translateY(0) rotateX(0) scale(1);transform:translateY(0) rotateX(0) scale(1);-webkit-transform-origin:50% 1400px;transform-origin:50% 1400px;opacity:1}}@keyframes slide-in-elliptic-top-fwd{0%{-webkit-transform:translateY(-600px) rotateX(-30deg) scale(0);transform:translateY(-600px) rotateX(-30deg) scale(0);-webkit-transform-origin:50% 100%;transform-origin:50% 100%;opacity:0}100%{-webkit-transform:translateY(0) rotateX(0) scale(1);transform:translateY(0) rotateX(0) scale(1);-webkit-transform-origin:50% 1400px;transform-origin:50% 1400px;opacity:1}}
+
+
+
+
+
+
+/*** MEDIA QUERIES ***/
+
+@media screen and (max-width: 480px) {
+    
+    .contenedor {
+        padding-left: 0;
+        padding-right: 0;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .map {
+    display: none;
+}
+
+    .container-form {
+    display: none;
+}
+
+    .header__img {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        align-items: flex-start;
+    }
+
+
+    .redes {
+        text-align: center;
+        justify-content: flex-end;
+    }
+
+    .sucursalesbienv {
+        font-size: 15px;
+        display: flex;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+    }
+
+    .txt__bienvenida {
+        font-size: 15px;
+        display: flex;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+
+    .card__info {
+        padding-left: 20px
+    }
+    
+}
