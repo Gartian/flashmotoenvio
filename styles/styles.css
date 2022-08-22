@@ -81,7 +81,7 @@ text-align: center;
 
 
 
-/* SLIDER */
+/* SLIDER 
 
 .slider {
     width: 95%;
@@ -122,7 +122,7 @@ text-align: center;
     100% {margin-left: -300%;}
 }
 
-
+*/
 
 
 /* GALERIA */
@@ -358,7 +358,6 @@ footer{
     }
 
     .cards {
-       
         display: flex;
         flex-direction: column;
     }
