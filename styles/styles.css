@@ -4,7 +4,7 @@
     margin: 0; 
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif; 
+    font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -14,6 +14,8 @@ header{
     justify-content: space-between;
     align-items: flex-end;
 }
+
+
 
 /* MENU */
 
@@ -81,87 +83,6 @@ text-align: center;
 
 
 
-/* SLIDER 
-
-.slider {
-    width: 95%;
-    margin: auto;
-    overflow: hidden;
-}
-
-.slider ul {
-    display: flex;
-    padding: 0;
-    width: 400%;
-
-    animation: cambio 20s infinite alternate;
-    animation-timing-function: ease-in;
-}
-
-.slider li {
-    width: 100%;
-    list-style: none;
-}
-
-.slider img {
-    width: 100%;
-}
-
-
-@keyframes cambio {
-    0% {margin-left: 0%;}
-    20% {margin-left: 0%;}
-
-    25% {margin-left: -100%;}
-    45% {margin-left: -100%;}
-
-    50% {margin-left: -200%;}
-    70% {margin-left: -200%;}
-
-    75% {margin-left: -300%;}
-    100% {margin-left: -300%;}
-}
-
-*/
-
-
-/* GALERIA */
-
-.car1 {
-    margin-top: 20px;
-    padding: 10px;
-    display: inline-block;
-    padding-bottom: 20px;
-    padding-left: 30px;
-    transition: transform .5s;
-    
-}
-
-.car1__motouno {
-    display: inline;
-    width: 300px;
-}
-
-
-.car1__title {
-    text-align: center;
-    color: white;
-    font-size: 24px;
-}
-
-.car1__description {
-    text-align: center;
-    color: white;
-    font-size: 14px;
-}
-
-
-.car1:hover {
-    transform: scale(1.1) translateX(-10px);
-}
-
-
-
 /* NOSOTROS */
 
 .cards {
@@ -169,6 +90,7 @@ text-align: center;
     display: flex;
     gap: 40px
 }
+
 
 .card {
     background-color: #440000;
@@ -226,12 +148,12 @@ text-align: center;
 }
 
 .contenedor {
-    padding-left: 1rem;
+    padding-left: .5rem;
     text-align: center;
     display: grid;
-    width: 1200px;
-    height: 300px;
-    grid-template-columns: repeat(6, 26.6%);
+    max-width: 100%;
+    height: auto;
+    grid-template-columns: repeat(6, 16.6%);
     grid-template-rows: 1fr 1fr 1fr;
 }
 
