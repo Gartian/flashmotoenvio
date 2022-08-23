@@ -15,6 +15,9 @@ header{
     align-items: flex-end;
 }
 
+.header__img {
+    width: 400px;
+}
 
 
 /* MENU */
