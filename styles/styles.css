@@ -19,6 +19,26 @@ header{
     width: 400px;
 }
 
+body h4::selection {
+    background-color: #440000;
+    color: white;
+}
+
+body h3::selection {
+    background-color:#440000;
+    color: white;
+}
+
+body p::selection {
+    background-color: #440000;
+    color: white;
+}
+
+
+body i::selection {
+    background-color: #440000;
+    color: white;
+}
 
 /* MENU */
 
