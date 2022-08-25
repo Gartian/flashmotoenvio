@@ -40,6 +40,12 @@ body i::selection {
     color: white;
 }
 
+
+body footer::selection {
+    background-color: white;
+    color: #440000;
+}
+
 /* MENU */
 
 .menu {
