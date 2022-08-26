@@ -43,7 +43,7 @@ body i::selection {
 
 body footer::selection {
     background-color: white;
-    color: #440000;
+    color:#450000;
 }
 
 /* MENU */
