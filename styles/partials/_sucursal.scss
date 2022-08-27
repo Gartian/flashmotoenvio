@@ -1,0 +1,31 @@
+
+.sucursalesbienv {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-inline: 200px;
+}
+
+.contenedor {
+    padding-left: .5rem;
+    text-align: center;
+    display: grid;
+    max-width: 100%;
+    height: auto;
+    grid-template-columns: repeat(6, 16.6%);
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+
+
+
+
+
+.caja {
+    border: 2px solid #440000;
+    background-color: #45000044;
+
+    
+}

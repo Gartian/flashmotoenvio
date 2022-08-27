@@ -1,0 +1,13 @@
+@import "./partials/variable"; // Siempre Arriba de todo 
+
+@import "./partials/reset"; // Siempre debajo de Variables. Pero encima del resto
+
+@import "./partials/header";
+@import "./partials/hero";
+@import "./partials/tarjetitas";
+@import "./partials/sucursal";
+@import "./partials/contacto";
+@import "./partials/redesociales";
+@import "./partials/footer";
+@import "./partials/animaciones";
+@import "./partials/mediaqueries";

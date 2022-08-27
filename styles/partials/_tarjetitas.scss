@@ -1,0 +1,46 @@
+.cards {
+    padding: 50px;
+    display: flex;
+    gap: 40px
+
+
+}
+
+.card {
+    background-color: #440000;
+    border-radius: 20px;
+    overflow: hidden;
+    flex: 1;
+    display: flex;
+    color: rgb(255, 255, 255);
+    align-items: center;
+
+    .card__info h3 {
+        padding-right: 7rem;
+    }
+
+    .card__info p {
+        padding-right: 7rem;
+    }
+
+    .car1 {
+        padding-right: .5rem;
+        padding-left: 4.2rem;
+    }
+    .card__imagen {
+        width: 190px;
+        margin-bottom: 20;
+        justify-content: flex-start;
+        margin-bottom: 20px;
+    }
+    
+    
+    .card__info {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        padding-left: 138px;
+    }
+}
