@@ -210,6 +210,25 @@ section {
   padding-top: 20px;
 }
 
+.ico-facebook, .ico-instagram, .ico-whatsapp {
+  background-color: blue;
+}
+
+.ico-instagram {
+  background-color: rgb(255, 92, 119);
+}
+
+.ico-whatsapp {
+  background-color: green;
+}
+
+.ico-facebook, .ico-instagram, .ico-whatsapp {
+  border-radius: 4px;
+}
+.ico-facebook:hover, .ico-instagram:hover, .ico-whatsapp:hover {
+  background-color: rgb(255, 0, 0);
+}
+
 footer {
   padding-bottom: 2rem;
   color: white;
